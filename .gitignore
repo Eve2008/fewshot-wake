@@ -9,3 +9,6 @@ results/samespk/per_task.csv
 results/samespk_v2/per_task.csv
 __pycache__/
 *.pyc
+
+# the shipped negative bank is part of the release
+!results/bank/*.npy
