@@ -1,0 +1,15 @@
+ablation_mswc: 1980 rows
+ablation_samespk: 1128 rows
+shots_new: 738 rows
+rules_paired: 270 rows
+dev_split: 54 rows
+seed_spread: 105 rows
+tail_models: 2592 rows
+tail_shape: 288 rows
+enrollment: 144 rows
+enroll_speaker_overlap: 144 rows
+esc50_tail: 120 rows
+samespk_own: 185 rows
+samespk_words: 204 rows
+poisson_reference: 32 rows
+samespk_own_curve: 76 rows

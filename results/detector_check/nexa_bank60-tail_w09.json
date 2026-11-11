@@ -1,0 +1,1 @@
+{"method": "nexa", "rule": "bank60-tail", "index": 9, "word": "وجود", "tau": 0.226, "detector_fa": 6, "detector_fah": 1.4999916667129627, "counting_fa": 6, "counting_fah": 1.4999916667129627, "detector_frr": 0.95, "counting_frr": 0.95, "positive_hits": 3, "seconds": 85.7}

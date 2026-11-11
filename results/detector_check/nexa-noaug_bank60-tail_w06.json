@@ -1,0 +1,1 @@
+{"method": "nexa-noaug", "rule": "bank60-tail", "index": 6, "word": "وقتی", "tau": 0.342, "detector_fa": 7, "detector_fah": 1.7499902778317897, "counting_fa": 7, "counting_fah": 1.7499902778317897, "detector_frr": 0.8833333333333333, "counting_frr": 0.8833333333333333, "positive_hits": 7, "seconds": 88.5}

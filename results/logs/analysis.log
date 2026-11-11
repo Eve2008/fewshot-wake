@@ -1,0 +1,17 @@
+mswc: 127008 rows, 2646 aggregate rows
+samespk: 177840 rows, 2394 aggregate rows
+
+real	2m15.567s
+user	1m31.231s
+sys	0m2.082s
+mswc 864
+samespk 777
+/home/ali/Desktop/Articles/artifacts/fewshot-wake/experiments/paired_extra.py:109: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"{col}_pooled_a"] = float((x.loc[idx, col] * hx).sum() / hx.sum())
+/home/ali/Desktop/Articles/artifacts/fewshot-wake/experiments/paired_extra.py:110: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"{col}_pooled_b"] = float((y.loc[idx, col] * hy).sum() / hy.sum())
+mswc paired_k 1026
+mswc paired_methods 1008
+samespk paired_k 792 speakers built at all k: 63
+samespk paired_methods 903
+tables written to /home/ali/Desktop/Articles/artifacts/fewshot-wake/results/tables

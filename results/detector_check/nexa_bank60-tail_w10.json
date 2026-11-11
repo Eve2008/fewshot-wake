@@ -1,0 +1,1 @@
+{"method": "nexa", "rule": "bank60-tail", "index": 10, "word": "حالا", "tau": 0.176, "detector_fa": 5, "detector_fah": 1.2499930555941356, "counting_fa": 5, "counting_fah": 1.2499930555941356, "detector_frr": 0.85, "counting_frr": 0.85, "positive_hits": 9, "seconds": 99.9}

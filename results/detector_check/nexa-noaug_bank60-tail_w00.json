@@ -1,0 +1,1 @@
+{"method": "nexa-noaug", "rule": "bank60-tail", "index": 0, "word": "برای", "tau": 0.264, "detector_fa": 5, "detector_fah": 1.2499930555941356, "counting_fa": 5, "counting_fah": 1.2499930555941356, "detector_frr": 0.75, "counting_frr": 0.75, "positive_hits": 15, "seconds": 114.4}

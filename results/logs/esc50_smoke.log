@@ -1,0 +1,7 @@
+6 tasks to run
+[1/6] clapping seed 3 k 3: 8 methods, 131.2s (elapsed 131s)
+[2/6] clapping seed 2 k 3: 8 methods, 136.8s (elapsed 137s)
+[3/6] clapping seed 1 k 3: 8 methods, 139.1s (elapsed 139s)
+[4/6] clapping seed 3 k 6: 8 methods, 227.0s (elapsed 227s)
+[5/6] clapping seed 1 k 6: 8 methods, 228.0s (elapsed 228s)
+[6/6] clapping seed 2 k 6: 8 methods, 234.7s (elapsed 235s)

@@ -1,0 +1,11 @@
+              stream  clips  variant_clips          variant_words
+eval_negatives_seed1  11520              9     اين براى خيلى كردم
+eval_negatives_seed2  11520              9 براى خيلي كار كردم كنم
+eval_negatives_seed3  11520              7 بايد براي خيلي كار هيچ
+                bank   2880              2               آيا وقتي
+                     kind  alarms  wakes_with_alarms
+          contains target       4                  3
+                    other      40                 10
+same word, other spelling       1                  1
+         similar spelling      11                  5
+                    total      56                 12

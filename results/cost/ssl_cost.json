@@ -1,0 +1,21 @@
+{
+ "layers": 6,
+ "audio_seconds": 10.0,
+ "context_seconds_each_side": 1.28,
+ "threads": 1,
+ "thread_cpu_seconds": [
+  3.347589796000001,
+  3.9467838660000005,
+  3.866780457000001
+ ],
+ "ms_per_80ms_frame_median": 30.934243656000007,
+ "ms_per_80ms_frame_range": [
+  26.78071836800001,
+  31.574270928000004
+ ],
+ "load_average": [
+  39.9228515625,
+  39.09619140625,
+  32.9462890625
+ ]
+}

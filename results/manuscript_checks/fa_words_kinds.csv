@@ -1,0 +1,57 @@
+target,negative_word,ratio,kind
+برای,داره,25.0,other
+برای,قراره,44.4,other
+برای,کنه,0.0,other
+برای,دارید,44.4,other
+برای,داری,50.0,other
+خیلی,خیلیا,88.9,contains target
+خیلی,فکر,0.0,other
+خیلی,پیدا,25.0,other
+خیلی,فیلم,50.0,other
+باید,حمایت,44.4,other
+باید,های,57.1,other
+باید,ایا,57.1,other
+باید,حمایت,44.4,other
+نیست,پیش,28.6,other
+نیست,پیش,28.6,other
+اینجا,اونجا,80.0,similar spelling
+اینجا,اینجاست,83.3,contains target
+اینجا,اینجاست,83.3,contains target
+اینجا,آنجا,88.9,similar spelling
+دوست,دزدکی,22.2,other
+دوست,روسیه,44.4,other
+دوست,رست,57.1,other
+دوست,روز,28.6,other
+دوست,دزد,28.6,other
+وقتی,وقت,85.7,similar spelling
+وقتی,سبزتر,22.2,other
+وقتی,دست,28.6,other
+وقتی,زرد,0.0,other
+وقتی,رفت,28.6,other
+وقتی,بسته,25.0,other
+وقتی,وقت,85.7,similar spelling
+چیزی,چجوری,44.4,other
+چیزی,چیزیه,88.9,contains target
+چیزی,چیره,50.0,other
+آنها,قطر,0.0,other
+آنها,اتاقی,44.4,other
+آنها,آدمها,66.7,similar spelling
+آنها,حتی,0.0,other
+وجود,روی,28.6,other
+وجود,بزرگ,0.0,other
+وجود,اوج,57.1,other
+وجود,روی,28.6,other
+وجود,اتاق,0.0,other
+وجود,بوی,28.6,other
+خواهم,خواد,66.7,similar spelling
+کردم,کردن,75.0,similar spelling
+کردم,صدا,28.6,other
+کردم,کردن,75.0,similar spelling
+کردم,كردم,100.0,"same word, other spelling"
+کردم,میکردند,54.5,other
+کردم,گندم,50.0,other
+کردم,کردن,75.0,similar spelling
+کردم,کردن,75.0,similar spelling
+کردم,کرده,75.0,similar spelling
+کردم,گندم,50.0,other
+کردم,گندم,50.0,other

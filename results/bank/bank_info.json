@@ -1,0 +1,1 @@
+{"clips": 2880, "seconds": 3600.19, "clean_frames": 45002, "clean_feat_MB_fp16": 11.52, "clean_mfcc_MB_fp16": 28.08, "noisy_frames": 45002, "noisy_feat_MB_fp16": 11.52, "noisy_mfcc_MB_fp16": 28.08, "seconds_build": 100.7}

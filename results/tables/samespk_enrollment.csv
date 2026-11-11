@@ -1,0 +1,5 @@
+set,shots,planned,finished,built,not_built,enrolled_lt_k,positives_built,own_voice_hours_built
+broad,3,134,134,130,4,4,1593,6.713222222222222
+main,3,66,66,63,3,3,829,4.2506
+main,6,66,66,66,0,4,857,4.382022222222222
+main,10,66,66,66,0,5,857,4.382022222222222

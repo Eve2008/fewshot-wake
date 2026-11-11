@@ -1,0 +1,71 @@
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights: 100%|██████████| 211/211 [00:00<00:00, 3927.41it/s]
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights: 100%|██████████| 211/211 [00:00<00:00, 10111.26it/s]
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights: 100%|██████████| 211/211 [00:00<00:00, 15945.63it/s]
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights: 100%|██████████| 211/211 [00:00<00:00, 6287.82it/s]
+bank: 90004 frames, PCA keeps 0.886, 922s
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights:  45%|████▌     | 96/211 [00:00<00:00, 952.26it/s]Loading weights: 100%|██████████| 211/211 [00:00<00:00, 1787.50it/s]
+seed 1: stream 360002 frames in 2735s
+seed 1 برای: features saved
+seed 1 خیلی: features saved
+seed 1 باید: features saved
+seed 1 نیست: features saved
+seed 1 اینجا: features saved
+seed 1 دوست: features saved
+seed 1 وقتی: features saved
+seed 1 چیزی: features saved
+seed 1 آنها: features saved
+seed 1 وجود: features saved
+seed 1 حالا: features saved
+seed 1 الان: features saved
+seed 1 خونه: features saved
+seed 1 درست: features saved
+seed 1 خواهم: features saved
+seed 1 کردم: features saved
+scored seed1_k3_w00.json
+scored seed1_k6_w00.json
+scored seed1_k10_w00.json
+scored seed1_k3_w01.json
+scored seed1_k6_w01.json
+scored seed1_k10_w01.json
+scored seed1_k3_w02.json
+scored seed1_k6_w02.json
+scored seed1_k10_w02.json
+scored seed1_k3_w03.json
+scored seed1_k6_w03.json
+scored seed1_k10_w03.json
+scored seed1_k3_w04.json
+scored seed1_k6_w04.json
+scored seed1_k10_w04.json
+scored seed1_k3_w05.json
+scored seed1_k6_w05.json
+scored seed1_k10_w05.json
+scored seed1_k3_w06.json
+scored seed1_k6_w06.json
+scored seed1_k10_w06.json
+scored seed1_k3_w07.json
+scored seed1_k6_w07.json
+scored seed1_k10_w07.json
+scored seed1_k3_w08.json
+scored seed1_k6_w08.json
+scored seed1_k10_w08.json
+scored seed1_k3_w09.json
+scored seed1_k6_w09.json
+scored seed1_k10_w09.json
+scored seed1_k3_w10.json
+scored seed1_k6_w10.json
+scored seed1_k10_w10.json
+scored seed1_k3_w11.json
+scored seed1_k6_w11.json
+scored seed1_k10_w11.json
+scored seed1_k3_w12.json
+scored seed1_k6_w12.json
+scored seed1_k10_w12.json
+scored seed1_k3_w13.json
+scored seed1_k6_w13.json
+scored seed1_k10_w13.json
+scored seed1_k3_w14.json
+scored seed1_k6_w14.json
+scored seed1_k10_w14.json
+scored seed1_k3_w15.json
+scored seed1_k6_w15.json
+scored seed1_k10_w15.json

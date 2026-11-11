@@ -1,0 +1,46 @@
+mswc: 127008 rows, 2646 aggregate rows
+samespk: 177840 rows, 2394 aggregate rows
+esc50: 147000 rows, 980 aggregate rows
+esc50_samesrc: 49020 rows, 430 aggregate rows
+fleurs: 10368 rows, 216 aggregate rows
+condnorm: 9216 rows, 576 aggregate rows
+mswc 864
+samespk 777
+esc50 260
+/home/ali/Desktop/Articles/artifacts/fewshot-wake/experiments/paired_extra.py:109: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"{col}_pooled_a"] = float((x.loc[idx, col] * hx).sum() / hx.sum())
+/home/ali/Desktop/Articles/artifacts/fewshot-wake/experiments/paired_extra.py:110: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"{col}_pooled_b"] = float((y.loc[idx, col] * hy).sum() / hy.sum())
+mswc paired_k 1026
+mswc paired_methods 1008
+samespk paired_k 792 speakers built at all k: 63
+samespk paired_methods 903
+tables written to /home/ali/Desktop/Articles/artifacts/fewshot-wake/results/tables
+# Few-shot wake detection: results of the step-1 experiments
+
+All numbers below were produced by the scripts in `experiments/` on this machine; raw per-task results are in `results/*/tasks/*.json`, per-wake rows in `results/*/per_task.csv`, aggregates with 95 % cluster-bootstrap intervals (resampling words, speakers or classes) in `results/*/calibration.csv`.
+
+## Data and partition
+
+- Persian MSWC test split: 120,232 one-second clips, 3,197 speakers, 12,231 words.
+- Evaluation words never used as negatives or in the bank: 34 distinct words (the 16 cross-speaker targets and the 25 words that some speaker repeats >= 8 times; 7 words are on both lists).
+- Bank: 2,880 clips (60.0 min with 0.25 s gaps) from 610 bank-only speakers and 1282 bank-only words; 45,002 feature frames = 11.52 MB at fp16 (noisy copy another 11.52 MB; MFCC copy for the baseline 28.08 MB).
+- Evaluation negatives per seed: 11,520 clips = seed 1: 4.000 h, seed 2: 4.000 h, seed 3: 4.000 h (clean; the same audio with white+pink noise at 10 dB SNR as the noisy condition). They share no speaker and no word with the bank and contain none of the 34 evaluation words; the three seeds use different clips (speakers and words do recur across seeds). Room audio for the deployed calibration: 25.2 s per seed.
+- FA/h resolution: one false alarm on a 4 h stream is 0.25 FA/h for that wake; per k the 48 cross-speaker wakes are scored on 192 wake-hours of clean negatives (12.0 h of distinct audio over the three seeds).
+- Near-miss words: the evaluation negatives exclude the target words themselves, but 83-88 of the 11,520 clips per seed are other words that contain a target as a substring (e.g. دوستان for دوست); they are kept as negatives.
+- Cross-speaker positives: 60 recordings by 60 speakers not enrolled, per word and seed (16 words x 3 seeds = 48 wakes per k, 2,880 positives per k). Enrollment uses k recordings by k different speakers; nested across k (k = 3 is a subset of k = 6, which is a subset of k = 10). The deployed enrollment rejected a recording in 0 of 48 wakes at k = 3, 3 of 48 wakes at k = 6, 3 of 48 wakes at k = 10 (the wake was still built from the remaining recordings).
+
+## 0. Main findings (numbers from the tables below)
+
+1. **The deployed calibration (20 s of room audio) is far too loose.** Cross-speaker, clean: the deployed matcher reaches a mean of 116 to 131 FA/h over k = 3, 6, 10 (median 77 to 90), the clean-template variant 97 to 111 FA/h; at most 4% of the 48 wakes stay within 2 FA/h.
+2. **Per-wake calibration on the 60-min bank (11.5 MB at fp16) with a tail fit lands near the target on disjoint negatives.** Clean templates, target 1 FA/h: mean 0.71 to 0.79 FA/h over k (median 0.50 to 0.62, worst wake 3.25 to 4.00), 90% to 96% of wakes within 2 FA/h, at FRR 0.819 to 0.875. Targets 0.5 and 2 FA/h give 0.24 to 0.30 and 1.78 to 2.02 FA/h. The deployed matcher with the same rule: 1.03 to 1.27 FA/h at target 1.
+3. **The naive empirical rule overshoots by design.** Taking the lar
+ok det_figure
+ok calibration_figure
+ok shots_figure
+ok esc_figure
+ok cost_figure
+
+real	3m43.895s
+user	3m46.099s
+sys	0m5.135s

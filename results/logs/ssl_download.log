@@ -1,0 +1,8 @@
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 5 files:  20%|██        | 1/5 [00:00<00:01,  2.79it/s]Fetching 5 files:  40%|████      | 2/5 [00:00<00:01,  2.95it/s]Fetching 5 files:  80%|████████  | 4/5 [01:11<00:22, 22.38s/it]Fetching 5 files: 100%|██████████| 5/5 [01:12<00:00, 15.82s/it]Fetching 5 files: 100%|██████████| 5/5 [01:12<00:00, 14.57s/it]
+/home/ali/.cache/huggingface/hub/models--utter-project--mHuBERT-147/snapshots/7ad3fc0bc5106c58c9c13526abccad527150d135
+config.json 1587
+preprocessor_config.json 227
+model.safetensors 377510584
+pytorch_model.bin 377554841
+README.md 6174

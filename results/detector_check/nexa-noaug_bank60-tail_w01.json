@@ -1,0 +1,1 @@
+{"method": "nexa-noaug", "rule": "bank60-tail", "index": 1, "word": "خیلی", "tau": 0.29, "detector_fa": 4, "detector_fah": 0.9999944444753084, "counting_fa": 4, "counting_fah": 0.9999944444753084, "detector_frr": 0.6666666666666667, "counting_frr": 0.6666666666666666, "positive_hits": 20, "seconds": 151.2}

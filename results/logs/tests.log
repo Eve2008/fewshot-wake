@@ -1,0 +1,3 @@
+PASS test_fast.test_equal_to_deployed_matcher (3.5s)
+PASS test_parallel_features.test_parallel_features_equal (3.8s)
+PASS test_parallel_features.test_parallel_mfcc_equal (3.5s)

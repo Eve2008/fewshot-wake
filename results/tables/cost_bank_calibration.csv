@@ -1,0 +1,6 @@
+templates,length,bank_frames,grid_thresholds,compiled_seconds,compiled_seconds_min,compiled_seconds_max,event_count_seconds,event_count_seconds_min,event_count_seconds_max,deployed_seconds
+3,5,45002,901,0.116,0.094,0.134,0.053,0.039,0.058,
+6,5,45002,901,0.197,0.165,0.215,0.047,0.046,0.055,10.58
+10,5,45002,901,0.28,0.262,0.303,0.053,0.043,0.058,
+18,5,45002,901,0.422,0.338,0.461,0.062,0.051,0.065,11.53
+30,5,45002,901,0.779,0.737,0.788,0.043,0.032,0.043,

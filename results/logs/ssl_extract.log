@@ -1,0 +1,6 @@
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights: 100%|██████████| 211/211 [00:00<00:00, 6742.53it/s]
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights: 100%|██████████| 211/211 [00:00<00:00, 6563.37it/s]
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights: 100%|██████████| 211/211 [00:00<00:00, 17671.69it/s]
+bank: 90004 frames, PCA 128 dims keep 0.915
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights:  54%|█████▍    | 114/211 [00:00<00:00, 1138.80it/s]Loading weights: 100%|██████████| 211/211 [00:00<00:00, 1668.75it/s]
+seed 1: stream 360002 frames in 1083s

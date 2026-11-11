@@ -1,0 +1,7 @@
+           noise_only_fah         ... eval_clean_fah          
+                     mean median  ...           mean    median
+method                            ...                         
+nexa               780.75    6.0  ...       2.484361  2.249988
+nexa-noaug           0.00    0.0  ...       2.656235  1.999989
+
+[2 rows x 6 columns]

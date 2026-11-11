@@ -1,0 +1,6 @@
+kind,alarms,wakes_with_alarms
+contains target,4,3
+other,40,10
+"same word, other spelling",1,1
+similar spelling,11,5
+total,56,12

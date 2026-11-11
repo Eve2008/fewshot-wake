@@ -1,0 +1,7 @@
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights: 100%|██████████| 211/211 [00:00<00:00, 23657.99it/s]
+layer 4: AUC 0.934 (150 same, 600 different)
+layer 6: AUC 0.964 (150 same, 600 different)
+layer 8: AUC 0.933 (150 same, 600 different)
+layer 9: AUC 0.950 (150 same, 600 different)
+layer 10: AUC 0.957 (150 same, 600 different)
+layer 12: AUC 0.944 (150 same, 600 different)

@@ -1,0 +1,68 @@
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights:  39%|███▉      | 82/211 [00:00<00:00, 755.56it/s]Loading weights: 100%|██████████| 211/211 [00:00<00:00, 1146.73it/s]
+Loading weights:  42%|████▏     | 88/211 [00:00<00:00, 832.54it/s]Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights: 100%|██████████| 211/211 [00:00<00:00, 1782.80it/s]
+Loading weights: 100%|██████████| 211/211 [00:00<00:00, 16666.32it/s]
+seed 1 برای: features saved
+seed 1 خیلی: features saved
+seed 1 باید: features saved
+seed 1 نیست: features saved
+seed 1 اینجا: features saved
+seed 1 دوست: features saved
+seed 1 وقتی: features saved
+seed 1 چیزی: features saved
+seed 1 آنها: features saved
+seed 1 وجود: features saved
+seed 1 حالا: features saved
+seed 1 الان: features saved
+seed 1 خونه: features saved
+seed 1 درست: features saved
+seed 1 خواهم: features saved
+seed 1 کردم: features saved
+scored seed1_k3_w00.json
+scored seed1_k6_w00.json
+scored seed1_k10_w00.json
+scored seed1_k3_w01.json
+scored seed1_k6_w01.json
+scored seed1_k10_w01.json
+scored seed1_k3_w02.json
+scored seed1_k6_w02.json
+scored seed1_k10_w02.json
+scored seed1_k3_w03.json
+scored seed1_k6_w03.json
+scored seed1_k10_w03.json
+scored seed1_k3_w04.json
+scored seed1_k6_w04.json
+scored seed1_k10_w04.json
+scored seed1_k3_w05.json
+scored seed1_k6_w05.json
+scored seed1_k10_w05.json
+scored seed1_k3_w06.json
+scored seed1_k6_w06.json
+scored seed1_k10_w06.json
+scored seed1_k3_w07.json
+scored seed1_k6_w07.json
+scored seed1_k10_w07.json
+scored seed1_k3_w08.json
+scored seed1_k6_w08.json
+scored seed1_k10_w08.json
+scored seed1_k3_w09.json
+scored seed1_k6_w09.json
+scored seed1_k10_w09.json
+scored seed1_k3_w10.json
+scored seed1_k6_w10.json
+scored seed1_k10_w10.json
+scored seed1_k3_w11.json
+scored seed1_k6_w11.json
+scored seed1_k10_w11.json
+scored seed1_k3_w12.json
+scored seed1_k6_w12.json
+scored seed1_k10_w12.json
+scored seed1_k3_w13.json
+scored seed1_k6_w13.json
+scored seed1_k10_w13.json
+scored seed1_k3_w14.json
+scored seed1_k6_w14.json
+scored seed1_k10_w14.json
+scored seed1_k3_w15.json
+scored seed1_k6_w15.json
+scored seed1_k10_w15.json
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights: 100%|██████████| 211/211 [00:00<00:00, 11832.95it/s]
